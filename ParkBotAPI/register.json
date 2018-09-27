@@ -1,0 +1,806 @@
+[
+    {
+        "﻿Måndag 9-12": "Landbrogatan ",
+        "Nummer": "21-25",
+        "Mellan gator": "Västra Vittusgatan - Västra  Köpmansgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "﻿Måndag 9-12": "Östra Vittusgatan ",
+        "Nummer": "5-9",
+        "Mellan gator": "Norra Kungsgatan - Norra Smedjegatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "﻿Måndag 9-12": "Östra Köpmansgatan",
+        "Nummer": 28,
+        "Mellan gator": "Norra Smedjegatan - Drottninggatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Drottninggatan ",
+        "Nummer": "50A-54",
+        "Mellan gator": "Ölandsgatan - Skeppsbrotorget",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "﻿Måndag 9-12": "Ostermansgatan",
+        "Nummer": "5-13",
+        "Mellan gator": "Gamla Skeppsbrog - Spårgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "﻿Måndag 9-12": "Bredgatan",
+        "Nummer": "11-17",
+        "Mellan gator": "Ronnebygatan - Östra Köpmansgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "﻿Måndag 9-12": "Kyrkogatan ",
+        "Nummer": "6-10",
+        "Mellan gator": "Drottninggatan - Bredgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Båtmansgränd ",
+        "Nummer": 4,
+        "Mellan gator": "Fortifikationsgatan - Sparrensgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "﻿Måndag 9-12": "Hästkvarnsgatan",
+        "Nummer": "2-4",
+        "Mellan gator": "Östra Prinsgatan - Alamedan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "﻿Måndag 9-12": "Östra Prinsgatan  ",
+        "Nummer": null,
+        "Mellan gator": "Södra Kungsgatan - Södra Smedjegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Södra Kungsgatan",
+        "Nummer": 1,
+        "Mellan gator": "Stortorget till Amiralitetstorget",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "﻿Måndag 9-12": "Västra Prinsgatan ",
+        "Nummer": "27A - 43",
+        "Mellan gator": "Styrmansgatan - Arklimästaregatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "﻿Måndag 9-12": "Amiralitetstorget",
+        "Nummer": 27,
+        "Mellan gator": "Södra Kungsgatan - Borgmästaregatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Amiralitetsgatan ",
+        "Nummer": null,
+        "Mellan gator": "Amiralitetstorget - Styrmansgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Borgmästaregatan ",
+        "Nummer": "1-5 ",
+        "Mellan gator": "Hantverkaregatan - Västra Prinsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "﻿Måndag 9-12": "Kungsbrogatan",
+        "Nummer": null,
+        "Mellan gator": "Drottninggatan - Kungsbron",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Sparrensgatan ",
+        "Nummer": "2-10",
+        "Mellan gator": "Drottninggatan - Båtsmansgränd",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Alamedan",
+        "Nummer": "4-8B",
+        "Mellan gator": "Hästkvarnsgatan till Drottninggatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "﻿Måndag 9-12": "Skepparegatan",
+        "Nummer": null,
+        "Mellan gator": "Hantverkaregatan - Västra Prinsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "﻿Måndag 9-12": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Måndag 13-16": "Måndag 13-16",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Måndag 13-16": "Västra Vittusgatan ",
+        "Nummer": "1-13",
+        "Mellan gator": "Möllebacksgränd - Landbrogatan ",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Måndag 13-16": "Norra Smedjegatan ",
+        "Nummer": "42-52",
+        "Mellan gator": "Nya Skeppsbrogatan - Spårgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Måndag 13-16": "Spårgatan",
+        "Nummer": null,
+        "Mellan gator": " Norra Smedjegatan - Norra Kungsgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Måndag 13-16": "Norra Smedjegatan ",
+        "Nummer": "19-25",
+        "Mellan gator": "Östra Köpmansgatan - Stenbergsgränd",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Måndag 13-16": "Ronnebygatan",
+        "Nummer": "1-3",
+        "Mellan gator": "Bredgatan - Östra Hamngatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Måndag 13-16": "Amiralitetstorget",
+        "Nummer": null,
+        "Mellan gator": "Alamedan - Amiralitetstorget till Högvakten",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Måndag 13-16": "Vallgatan",
+        "Nummer": null,
+        "Mellan gator": "Amiralitetstorget - Amiralitetstorget genom Amiralitetsparken.",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Måndag 13-16": "Borgmästaregatan ",
+        "Nummer": "2-10",
+        "Mellan gator": "Amiralitetstorget - Hantverkaregatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Måndag 13-16": "Arklimästaregatan",
+        "Nummer": "44-46 ",
+        "Mellan gator": "Hantverkaregatan - Fisktorget",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Måndag 13-16": "Hantverkaregatan",
+        "Nummer": "32-36",
+        "Mellan gator": "Styrmansgatan - Dockegatan ",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Måndag 13-16": "Skomakaregatan Från  ",
+        "Nummer": "31-43A",
+        "Mellan gator": "Dockegatan - Styrmansgatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Måndag 13-16": "Hantverkaregatan ",
+        "Nummer": "5-11",
+        "Mellan gator": "Arklimästaregatan - Konstapelsgatan ",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Måndag 13-16": "Konstapelsgatan ",
+        "Nummer": null,
+        "Mellan gator": "Prinsgatan - Amiralitetsgatan ",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Måndag 13-16": "Konstapelsgatan",
+        "Nummer": "1-13",
+        "Mellan gator": "Amiralitetsgatan - Varvsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Måndag 13-16": "Borgmästarekajen",
+        "Nummer": "2-14",
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Måndag 13-16": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Tisdag 9-12": "Tisdag 9-12",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Tisdag 9-12": "Västra Köpmansgatan",
+        "Nummer": "15-19",
+        "Mellan gator": "Borgmästarekajen - Bryggaregatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 9-12": "Hantverkaregatan",
+        "Nummer": "37-47",
+        "Mellan gator": "Dockegatan - Styrmansgatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 9-12": "Skomakaregatan",
+        "Nummer": "10-34",
+        "Mellan gator": "Skepparegatan - Styrmansgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Tisdag 9-12": "Amiralitetsgatan",
+        "Nummer": "2-8",
+        "Mellan gator": "Borgmästarekajen - Konstapelsgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Tisdag 9-12": "Västa Prinsgatan",
+        "Nummer": "2-16A",
+        "Mellan gator": "Borgmästaregatan - Arklimästaregatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Tisdag 9-12": "Konstapelsgatan",
+        "Nummer": null,
+        "Mellan gator": "Amiralitetsgatan - Västra Prinsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Tisdag 9-12": "Östra Prinsgatan",
+        "Nummer": "7 A-23",
+        "Mellan gator": "Södra Smedjegatan - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 9-12": "Ronnebygatan",
+        "Nummer": "7-9",
+        "Mellan gator": "Drottninggatan - Bredgatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 9-12": "Östra Köpmansgatan",
+        "Nummer": "5-7",
+        "Mellan gator": "Guldsmedsgränd - Bredgatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 9-12": "Ölandsgatan",
+        "Nummer": "1-5",
+        "Mellan gator": "Drottninggatan - Östra Hamngatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 9-12": "Högabergsgatan",
+        "Nummer": "3-5",
+        "Mellan gator": "Högabergsgatan - Stora Möllebacksgränd",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Tisdag 9-12": "Thore Christoffersgatan",
+        "Nummer": "2A-8C",
+        "Mellan gator": "Gamla Skeppsbrogatan - Spårgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Tisdag 9-12": "Norra Smedjegatan",
+        "Nummer": "35-59",
+        "Mellan gator": "Spårgatan - Östra Vittusgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Tisdag 9-12": "Östra Vittusgatan",
+        "Nummer": "20-30",
+        "Mellan gator": "Norra Smedjegatan - Norra Kungsgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Tisdag 9-12": "Stora Möllebacksgränd ",
+        "Nummer": "12A-12B",
+        "Mellan gator": null,
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Tisdag 9-12": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Tisdag 13-16": "Tisdag 13-16",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Tisdag 13-16": "Östra Köpmansgatan",
+        "Nummer": "27-31",
+        "Mellan gator": "Norra Kungsgatan - Norra Smedjegatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 13-16": "Stenbergsgränd",
+        "Nummer": "3-9",
+        "Mellan gator": "Norra Smedjegatan - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 13-16": "Drottninggatan",
+        "Nummer": "53-55",
+        "Mellan gator": "Skeppsbrogatan - Ölandsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Tisdag 13-16": "Östra Köpmansgatan",
+        "Nummer": "1-3",
+        "Mellan gator": "Bredgatan - Östra Hamngatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 13-16": "Kyrkogatan",
+        "Nummer": null,
+        "Mellan gator": "Drottninggatan - Östra Hamngatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Tisdag 13-16": "Vallgatan",
+        "Nummer": "10-30",
+        "Mellan gator": "Drottninggatan - Amiralitetstorget",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Tisdag 13-16": "Amiralitetstorget ",
+        "Nummer": null,
+        "Mellan gator": "Högvakten/Amiralitetstorget - Amiralitetsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Tisdag 13-16": "Konstapelsgatan",
+        "Nummer": "4-10",
+        "Mellan gator": "Varvsgatan - Amiralitetsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Tisdag 13-16": "Skepparegatan",
+        "Nummer": "2-18C",
+        "Mellan gator": "Varvsgatan - Amiralitetsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Tisdag 13-16": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Onsdag 9-12": "Onsdag 9-12",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Onsdag 9-12": "Arklimästaregatan ",
+        "Nummer": "7-27",
+        "Mellan gator": "Västra Prinsgatan - Varvsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Onsdag 9-12": "Styrmansgatan",
+        "Nummer": "32-38",
+        "Mellan gator": "Skomakaregatan - Fisktorget",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Onsdag 9-12": "Skeppsgossegatan",
+        "Nummer": "1-13",
+        "Mellan gator": "Styrmansgatan - Arklimästaregatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Onsdag 9-12": "Västra Köpmansgatan",
+        "Nummer": "2-24",
+        "Mellan gator": "Landbrogatan - Borgmästarekajen",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 9-12": "Landbrogatan ",
+        "Nummer": "1-19",
+        "Mellan gator": "Västra Köpmansgatan - Ronnebygatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Onsdag 9-12": "Norra Kungsgatan",
+        "Nummer": "22-26",
+        "Mellan gator": "Östra Köpmansgatan - Östra Vittusgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Onsdag 9-12": "Nya Skeppsbrogatan ",
+        "Nummer": "1-11",
+        "Mellan gator": "Norra Kungsgatan - Norra Smedjegatan ",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Onsdag 9-12": "Arvid Nilssonsgatan",
+        "Nummer": "7-17",
+        "Mellan gator": "Gamla Skeppsbrogatan - Spårgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Onsdag 9-12": "Gamla Skeppsbrogatan",
+        "Nummer": "1-9A",
+        "Mellan gator": "Norra Smedjegatan - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Onsdag 9-12": "Norra Smedjegatan ",
+        "Nummer": "29-33",
+        "Mellan gator": "Östra Vittusgatan - Östra Köpmansgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Onsdag 9-12": "Östra Köpmansgatan",
+        "Nummer": "2A-2B",
+        "Mellan gator": "Östra Hamngatan - Bredgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 9-12": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Onsdag 13-16": "Onsdag 13-16",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Onsdag 13-16": "Urmakaregränd",
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Onsdag 13-16": "Ronnebygatan",
+        "Nummer": "20-28",
+        "Mellan gator": "Drottninggatan - Norra Smedjegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 13-16": "Bredgatan",
+        "Nummer": "2-18",
+        "Mellan gator": "Kyrkogatan - Östra Köpmansgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Onsdag 13-16": "Kyrkogatan",
+        "Nummer": "12-20",
+        "Mellan gator": "Drottninggatan - Stortorget",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 13-16": "Fortifikationsgatan",
+        "Nummer": "2-12",
+        "Mellan gator": "Drottninggatan - Stortorget",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 13-16": "Östra Prinsgatan",
+        "Nummer": "6-22",
+        "Mellan gator": "Drottninggatan - Södra Smedjegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 13-16": "Amiralitetstorget",
+        "Nummer": null,
+        "Mellan gator": "Södra Kungsgatan - Södra Smedjegatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Onsdag 13-16": "Vallgatan",
+        "Nummer": null,
+        "Mellan gator": "Amiralitetstorget - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Onsdag 13-16": "Varvsgatan",
+        "Nummer": "2-14",
+        "Mellan gator": "Amiralitetstorget - Skepparegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 13-16": "Västra Prinsgatran",
+        "Nummer": "13-21",
+        "Mellan gator": "Arklimästaregatan - Konstapelsgatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Onsdag 13-16": "Skepparegatan",
+        "Nummer": "28-34",
+        "Mellan gator": "Västra Prinsgatan - Hantverkaregatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Onsdag 13-16": "Hantverkaregatan",
+        "Nummer": "12-30",
+        "Mellan gator": "Arklimästaregatan - Styrmansgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Onsdag 13-16": "Finnagränd",
+        "Nummer": "1-9",
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Onsdag 13-16": "Högabergsgatan",
+        "Nummer": null,
+        "Mellan gator": "Stora Möllebacksgränd - Bryggaregatan",
+        "Sida av gatan": null
+    },
+    {
+        "Onsdag 13-16": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Torsdag 9-12": "Torsdag 9-12",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Torsdag 9-12": "Alamedan",
+        "Nummer": "9-25",
+        "Mellan gator": "Amiralitetstorget - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Torsdag 9-12": "Landbrogatan",
+        "Nummer": null,
+        "Mellan gator": "Parkgatan - Östra Vittusgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Torsdag 9-12": "Södra Smedjegatan ",
+        "Nummer": "1-5",
+        "Mellan gator": "Stortorget - Amiralitetstorget",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Torsdag 9-12": "Kyrkogatan",
+        "Nummer": "2A-2E",
+        "Mellan gator": "Östra Hamngatan - Bredgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 9-12": "Ronnebygatan ",
+        "Nummer": "10-18",
+        "Mellan gator": "Bredgatan - Drottninggatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 9-12": "Amiralitetstorget ",
+        "Nummer": "8-12",
+        "Mellan gator": "Vallgatan - Alamedan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Torsdag 9-12": "Varvsgatan",
+        "Nummer": null,
+        "Mellan gator": "Styrmansgatan - Arklimästaregatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Torsdag 9-12": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Torsdag 13-16": "Torsdag 13-16",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Torsdag 13-16": "Stora Möllebacksgränd",
+        "Nummer": "7A-9D",
+        "Mellan gator": null,
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Torsdag 13-16": "Hantverkaregatan ",
+        "Nummer": "2-10",
+        "Mellan gator": "Borgmästaregatan - Arklimästaregatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 13-16": "Hantverkaregatan ",
+        "Nummer": "13-35",
+        "Mellan gator": "Styrmansgatan - Arklimästaregatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Torsdag 13-16": "Västra Prinsgatan",
+        "Nummer": "20-46",
+        "Mellan gator": "Arklimästaregatan - Styrmansgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 13-16": "Arklimästaregatan ",
+        "Nummer": "14-24",
+        "Mellan gator": "Varvsgatan - Västra Prinsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Torsdag 13-16": "Södra Smedjegatan ",
+        "Nummer": "2-6",
+        "Mellan gator": "Östra Prinsgatan - Fortifikationsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Torsdag 13-16": "Östra Prinsgatan Aparellen",
+        "Nummer": "1A-1C",
+        "Mellan gator": "Drottninggatan - Hästkvarnsgatan",
+        "Sida av gatan": "Båda"
+    },
+    {
+        "Torsdag 13-16": "Bredgatan ",
+        "Nummer": "1-7",
+        "Mellan gator": "Ronnebygatan - Kyrkogatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Torsdag 13-16": "Ronnebygatan",
+        "Nummer": "2-8",
+        "Mellan gator": "Östra Hamngatan - Bredgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 13-16": "Östra Köpmansgatan",
+        "Nummer": "17-23",
+        "Mellan gator": "Norra Smedjegatan - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Torsdag 13-16": "Östra Vittusgatan ",
+        "Nummer": "2-18",
+        "Mellan gator": "Drottninggatan - Norra Smedjegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 13-16": "Arvid Nilssonsgatan ",
+        "Nummer": "10A-20",
+        "Mellan gator": "Gamla Skeppsbrogatan - Skeppsbrokajen",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Torsdag 13-16": "Nya Skeppsbrogatan",
+        "Nummer": null,
+        "Mellan gator": "Norra Smedjegatan - Norra Kungsgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 13-16": "Stenbergsgränd ",
+        "Nummer": null,
+        "Mellan gator": "Drottninggatan - Norra Smedjegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Torsdag 13-16": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Fredag 9-12": "Fredag 9-12",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Fredag 9-12": "Skomakaregatan ",
+        "Nummer": "5-15",
+        "Mellan gator": "Styrmansgatan - Skepparegatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Fredag 9-12": "Konstapelsgatan ",
+        "Nummer": "27-31",
+        "Mellan gator": "Hantverkaregatan - Västra Prinsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Fredag 9-12": "Alamedan ",
+        "Nummer": "10-24",
+        "Mellan gator": "Drottninggatan - Södra Smedjegatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Fredag 9-12": "Östra Prinsgatan",
+        "Nummer": null,
+        "Mellan gator": "Kungsbron - Drottninggatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Fredag 9-12": "Kopmansbacke",
+        "Nummer": null,
+        "Mellan gator": "Parkgatan - Ronnebygatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Fredag 9-12": "Ostermansgatan",
+        "Nummer": null,
+        "Mellan gator": "Gamla Skeppsbrogatan - Spårgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Fredag 9-12": "Östra Köpmansgatan",
+        "Nummer": "30-36",
+        "Mellan gator": "Norra Smedjegatan - Norra Kungsgatan",
+        "Sida av gatan": "Norra"
+    },
+    {
+        "Fredag 9-12": "Norra Kungsgatan",
+        "Nummer": "10-14",
+        "Mellan gator": "Stenbergsgränd - Norra Kungsgatan",
+        "Sida av gatan": "Östra"
+    },
+    {
+        "Fredag 9-12": null,
+        "Nummer": null,
+        "Mellan gator": null,
+        "Sida av gatan": null
+    },
+    {
+        "Fredag 13-16": "Fredag 13-16",
+        "Nummer": "Nummer",
+        "Mellan gator": "Mellan gator",
+        "Sida av gatan": "Sida av gatan"
+    },
+    {
+        "Fredag 13-16": "Styrmansgatan",
+        "Nummer": null,
+        "Mellan gator": "Hantverkaregatan - Västra Prinsgatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Fredag 13-16": "Fortifikationsgatan",
+        "Nummer": "1-11 D",
+        "Mellan gator": "Södra Smedjegatan - Drottninggatan",
+        "Sida av gatan": "Södra"
+    },
+    {
+        "Fredag 13-16": "Drottninggatan",
+        "Nummer": "59-65A",
+        "Mellan gator": "Spårgatan - Gamla Skeppsbrogatan",
+        "Sida av gatan": "Västra"
+    },
+    {
+        "Fredag 13-16": "Spårgatan",
+        "Nummer": null,
+        "Mellan gator": "Norra Kungsgatan - Norra Smedjegatan",
+        "Sida av gatan": "Södra"
+    }
+]

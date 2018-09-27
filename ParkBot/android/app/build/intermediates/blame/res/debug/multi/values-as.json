@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.firebase\\firebase-messaging\\17.3.2\\res\\values-as\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 205,
+                        "endColumn": 99,
+                        "endOffset": 304
+                    }
+                }
+            }
+        ]
+    }
+]

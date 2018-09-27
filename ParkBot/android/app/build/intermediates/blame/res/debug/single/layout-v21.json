@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
