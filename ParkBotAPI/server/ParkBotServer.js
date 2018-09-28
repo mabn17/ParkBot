@@ -26,17 +26,12 @@ router.get("/", (req, res) => {
         " /show/register    Shows the whole register\n\n" +
         " /get/current      Displays the register dippending on the day and time. \n\n" +
         " /get/current \n" +
-        "     /cleaned      Changes the KEY values from get/current to numbers. \n\n"
+        "     /cleaned      Changes the KEY values from get/current to numbers. \n\n" +
+        "/search/:street    Searches the get/current/cleaned for the street name.\n\n"
     );
     res.end();
 });
 
-/**
- * Shows the APIs JSON file
- *
- * @param Object req The request
- * @param Object res The response
- */
 router.get("/show/register", (req, res) => {
     jf.showRegister(res);
 });
@@ -47,6 +42,16 @@ router.get("/get/current", (req, res) => {
 
 router.get("/get/current/cleaned", (req, res) => {
     jf.getCleanedCurrent(res);
+});
+
+router.get("/search/:street", (req, res) => {
+    // Gets the number
+    let street = req.params.street;
+    if (street == "null" || street == "undefined") {
+        street = null;
+    }
+
+    jf.searchStreet(res, street);
 });
 
 /**

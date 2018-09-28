@@ -162,7 +162,6 @@ jf.getCurrent = (res) => {
 /**
  * Does the samething as getCurrent tho it changes the key names 
  *                                      to numbers between 0-3
- * Also takes an optional param to search with???
  *
  * @param  {Object}        res     The response 
  */
@@ -181,6 +180,31 @@ jf.getCleanedCurrent = (res) => {
         counter = 0;
         placeHolder.push(t);
     }
+
+    try {
+        sendJSONResponse(res, placeHolder);
+    } catch (e) {
+        console.log(e);
+        badResonse(res);
+    }
+};
+
+jf.searchStreet = (res, street) => {
+    let r = cleanCurrent(register);
+    let placeHolder = [];
+
+    for (let i = 0; i < r.length; i++) {
+        const current = r[i];
+
+        if (current[0].indexOf(street) !== -1 || current[2].indexOf(street) !== -1) {
+            placeHolder.push(current);
+        }
+    }
+
+    // Clears the list from duplicates
+    placeHolder = ob.filter((ele, index, self) => {
+        return index == self.indexOf(ele);
+    });
 
     try {
         sendJSONResponse(res, placeHolder);
