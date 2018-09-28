@@ -202,7 +202,7 @@ jf.searchStreet = (res, street) => {
     }
 
     // Clears the list from duplicates
-    placeHolder = ob.filter((ele, index, self) => {
+    placeHolder = placeHolder.filter((ele, index, self) => {
         return index == self.indexOf(ele);
     });
 
