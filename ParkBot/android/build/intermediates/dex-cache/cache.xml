@@ -3,15 +3,6 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_5a8f82cddac6cda753c71f044b7223685443684b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -39,39 +30,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_326d348b47080c7228f1b92ca461880a25dcdd5a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_b351b4c8adce4323bbaff17d650d09da465c0258.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\15.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="6d468b69c3baff6635f9a7d09a558ced41fdbdf4">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-15.0.1_5418396195f3f998620bbe0714cf15cb8145750f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_e51be78bf3ee92c695da4c01f002ea97db84c1fb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -106,7 +70,7 @@
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="2dca9c6ea2a22756520aae41edf2563f52e3c78e">
+        sha1="dded584da8f289ec0bcd54c7526f2028f9e70c85">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\parkbot-react-native-push-notification-unspecified_a0ee346181c46027e11d7e494faac77e52a18bb4.jar" />
     </item>
     <item
@@ -120,46 +84,10 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_a48dee750d1a13287348871bbfe6c482ab31058f.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_95f58ecce2e25d18737f9cddf67b55cc27fd736f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_9615a03bdf267cdf3736e19978e2d77d0f1f888f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c1e9d140d3260619ce2fa991d30b14b531d61dec">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-stats-15.0.1_0c4dc2afc7c728e75f59cefc29dfd78f19c011fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
         sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_95f58ecce2e25d18737f9cddf67b55cc27fd736f.jar" />
     </item>
@@ -171,15 +99,6 @@
         revision="26.0.2"
         sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_b351b4c8adce4323bbaff17d650d09da465c0258.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d8fe6d91310b54734f454dd490c3c869f6290576">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-15.0.1_a0911898b2e99db2c5e600ed084571d041979ec5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,6 +120,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement-base\15.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a0fc13bb175be92930227157fa21e88657caa803">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-measurement-base-15.0.2_8b4c4b6559d437cac4a7eefa65df84fd82b35215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\15.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e7e3894213abc7e84f1d06a2fc2cc5703e7a7369">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-15.0.2_62047c9dc1301379669d8e4cd132887e08d725ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -219,15 +156,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_9e1ea9ad2167ff8b0014f1ebaf4d29bf2a33460a.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -237,21 +165,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_16147355fd63f7ac27fc100e0fbe82277a9ecd1f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\15.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_a0d02003e7411a1e0459548806b233660f2d72fa.jar" />
+        sha1="bd593fc702bfdb2111dc570d1cf48608db42bd37">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-15.0.2_0a9dc68a8c0bf04f3a053b2bba36afdab559b050.jar" />
     </item>
     <item
         is-multidex="false"
@@ -291,15 +210,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_99b132cde17b986a28e55aaec7cdb3fd5045cbb6.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\15.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -318,24 +228,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\17.0.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="45f4201ccedf0df3b29b5981f8c2d84fae21ed20">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-17.0.2_4df94a9e9b5b95bc4180da538ea6617c2b16229d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.1.0_49dc63d7a650bc90b72fb1b0f360e23208b5ce0d.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -351,6 +243,258 @@
         revision="26.0.2"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_c2b2f6acc78377e4e8488658a01314239db81a95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\15.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2ed83f4f10884d0a803ad4a3ebc18dad56fc4eab">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-15.1.0_470b7c97059e4df299b1ae00c5d1d60a1556ba70.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0e95f90824a750e829354aef1697d870ef34b3b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="49f91d16acc6a0dc76746eba924e8f5fd4acd4fa">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-15.0.0_fb20c132e08f824b0a9c5575aaa5a501287c6724.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-background-timer\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="832fc04398f09286d944049027fbcc02597b362a">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\parkbot-react-native-background-timer-unspecified_baae34af43a5172600c46a4286269ff7618d8f6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_cfd84b7713a6afaadf0a54ba964b6e1eff201074.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0e95f90824a750e829354aef1697d870ef34b3b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-identifier\15.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63413895dce50f6123807d1db2274a1982a34194">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-identifier-15.0.1_9f7e81fb5fef8118637b5992cb4f37c4d4120506.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-measurement-connector\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="df3356e822ce539e0f368fdfce3381d2fb896954">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-measurement-connector-15.0.0_52a5449d4f1666fe2476ad893bd55e74d4a8b78a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_addbc8b5d101ce275eef8d48baeff488dfa73ff7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_4b08c78f8d2f205d0788f5bb2714589694fe65ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_473fec7b65d2ba45aa18b2301995c01b2a343073.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_460299490c3f3f14d4760906dc47dee4f90a7526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_5a8f82cddac6cda753c71f044b7223685443684b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_326d348b47080c7228f1b92ca461880a25dcdd5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_b351b4c8adce4323bbaff17d650d09da465c0258.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_e51be78bf3ee92c695da4c01f002ea97db84c1fb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_a48dee750d1a13287348871bbfe6c482ab31058f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_9615a03bdf267cdf3736e19978e2d77d0f1f888f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\15.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c1e9d140d3260619ce2fa991d30b14b531d61dec">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-stats-15.0.1_0c4dc2afc7c728e75f59cefc29dfd78f19c011fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_95f58ecce2e25d18737f9cddf67b55cc27fd736f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\15.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d8fe6d91310b54734f454dd490c3c869f6290576">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-15.0.1_a0911898b2e99db2c5e600ed084571d041979ec5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\15.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b91045039cbf8fabb7989999578a13659eb1749f">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-15.0.2_571e2b680e3a998001c4d107e36477da349f0ccc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_9e1ea9ad2167ff8b0014f1ebaf4d29bf2a33460a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_16147355fd63f7ac27fc100e0fbe82277a9ecd1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_a0d02003e7411a1e0459548806b233660f2d72fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_99b132cde17b986a28e55aaec7cdb3fd5045cbb6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.1.0_49dc63d7a650bc90b72fb1b0f360e23208b5ce0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-measurement-connector-impl\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ecac68da0f045ab5f53e9ad9ab4069ce99fa24ec">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-measurement-connector-impl-15.0.0_0ff109e9bf45054445062a0de7bfa451ee21a19f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -390,24 +534,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0e95f90824a750e829354aef1697d870ef34b3b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\15.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="49f91d16acc6a0dc76746eba924e8f5fd4acd4fa">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-15.0.0_fb20c132e08f824b0a9c5575aaa5a501287c6724.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -435,21 +561,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_cfd84b7713a6afaadf0a54ba964b6e1eff201074.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\15.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_0e95f90824a750e829354aef1697d870ef34b3b1.jar" />
+        sha1="1643bb57f25843dc23e644c5de1f7939ebf967f9">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-15.0.1_c636a42f60de55485e15e2619b6fc6de443a1372.jar" />
     </item>
     <item
         is-multidex="false"
@@ -462,30 +579,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_addbc8b5d101ce275eef8d48baeff488dfa73ff7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid-interop\15.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
-        sha1="508f50705b4fde51a16259f29c854201a3044516">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_4b08c78f8d2f205d0788f5bb2714589694fe65ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-measurement-connector\16.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f9148af2391a1288519f4f1d38da060c4a640e85">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-measurement-connector-16.0.0_4590f5d8b8e460d062e26506a688b94f42cba061.jar" />
+        sha1="722a72e3da5eb0825aace9981b13276d7823c313">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-interop-15.0.0_7405f82aed67185bceb82dddcff2a9a9ae373ee3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -498,57 +597,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\16.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="ebe9115a8c3cb248ba6bd2fb5546ab72dae11a88">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-16.0.1_eb923297bf2df5f986e946a3fe55d6f740399082.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_473fec7b65d2ba45aa18b2301995c01b2a343073.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\15.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="4d4d98a0428b2e620e6b4a228ef9f7cb2f0debd2">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-15.0.1_6dc6abd0aa3e50a6e66560c1bee3023c88841b00.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\17.3.2\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f16c324d34dce49645e0cce83e79f4be4f97e808">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-messaging-17.3.2_bd5730c12e52654ca1c9d2801e5933cf4959d553.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_460299490c3f3f14d4760906dc47dee4f90a7526.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid-interop\16.0.0\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="2a69972573cb7e5cc6b8652bacf981e82b68ff71">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-iid-interop-16.0.0_459102c0fcdddb9d3bba8208430cdb01a243d56c.jar" />
     </item>
 
 </items>

@@ -2,15 +2,25 @@ import React from 'react';
 import { 
   StyleSheet, Text,
   View, AppState,
-  ToastAndroid
+  ToastAndroid,
+  BackHandler
 } from 'react-native';
 
-import Geocoder from 'react-native-geocoding'; // npm install
+import Geocoder from 'react-native-geocoding'; // yarn add
+import PushNotification from'react-native-push-notification'; // yarn add
+import BackgroundTimer from 'react-native-background-timer'; // yarn add
 import FetchLocation from './components/FetchLocations';  // Button
 import LoadingView from './components/Loading';  // Loading View
-import PushNotification from'react-native-push-notification'; // npm install
 
 import keys from './components/ApiKeys';
+
+/**
+ * Starts when the app launches
+ * Dosent care if its in background or foreground
+ */
+const intervalId = BackgroundTimer.setInterval(() => {
+  console.log('tic');
+}, 200);
 
 PushNotification.configure({
   // (optional) Called when Token is generated (iOS and Android)
@@ -21,7 +31,9 @@ PushNotification.configure({
   onNotification: function(notification) {
     setTimeout(() => {
       if (!notification['foreground']) {
-        ToastAndroid.show("You've clicked!", ToastAndroid.SHORT);
+        ToastAndroid.show("Closing app", ToastAndroid.SHORT);
+        BackgroundTimer.clearInterval(intervalId);
+        BackHandler.exitApp();
       }
     }, 1);
     PushNotification.localNotificationSchedule({
@@ -43,7 +55,7 @@ export default class App extends React.Component {
   constructor(props) {
     super(props);
 
-    // Binding this to handleAppStateChange so it can accses this.Coordinates
+    // Binding to accses "this"
     this.handleAppStateChange = this.handleAppStateChange.bind(this);
     this.sendNotification = this.sendNotification.bind(this);
     this.getCurrentAddress = this.getCurrentAddress.bind(this);
@@ -84,14 +96,14 @@ export default class App extends React.Component {
     AppState.removeEventListener('change', this.handleAppStateChange);
   }
 
-  handleAppStateChange(appState) {
-    if (appState  === 'background') {
+  handleAppStateChange(appppState) { // import BackgroundTimer from 'react-native-background-timer'; // yarn add
+    if (appppState  === 'background') {
       // TODO: Handle background things
       console.log("App state is now in background");
     }
   }
 
-    /** Changed to async check if it works
+    /**
    * Uses geolocation when a button is pressed
    * TODO:
    * Save the whole pos.coords in this.state.userLocation.
@@ -161,11 +173,6 @@ export default class App extends React.Component {
 
 
   render() {
-    /**
-     * Checks if the data is loading
-     *
-     * @return LoadingSceen
-     */
     if (this.state.isLoading) {
       this.getRegister();
       return(
@@ -176,7 +183,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>ParkBot Karlskrona</Text>
-        <FetchLocation onGetLocation={this.getCurrentAddress} />
+        <FetchLocation onGetLocation={this.sendNotification} />
       </View>
     );
   }

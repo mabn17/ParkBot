@@ -714,7 +714,7 @@
                     "endOffset": 4946
                 },
                 "from": {
-                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.firebase\\firebase-messaging\\17.3.2\\res\\values-ru\\values.xml",
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.firebase\\firebase-messaging\\15.0.2\\res\\values-ru\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,

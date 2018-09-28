@@ -1,4 +1,4 @@
-#Sat Sep 22 15:16:56 CEST 2018
+#Fri Sep 28 11:49:21 CEST 2018
 base.0=C\:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
