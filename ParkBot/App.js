@@ -14,14 +14,6 @@ import LoadingView from './components/Loading';  // Loading View
 
 import keys from './components/ApiKeys';
 
-/**
- * Starts when the app launches
- * Dosent care if its in background or foreground
- */
-const intervalId = BackgroundTimer.setInterval(() => {
-  console.log('tic');
-}, 200);
-
 PushNotification.configure({
   // (optional) Called when Token is generated (iOS and Android)
   onRegister: function(token) {
@@ -43,7 +35,6 @@ PushNotification.configure({
     });
   },
 
-  // ANDROID ONLY: GCM or FCM Sender ID (product_number) (optional - not required for local notifications, but is need to receive remote push notifications)
   senderID: keys.firebaseSenderId,
 });
 
@@ -56,6 +47,7 @@ export default class App extends React.Component {
     super(props);
 
     // Binding to accses "this"
+    this.intervalId = this.intervalId.bind(this);
     this.handleAppStateChange = this.handleAppStateChange.bind(this);
     this.sendNotification = this.sendNotification.bind(this);
     this.getCurrentAddress = this.getCurrentAddress.bind(this);
@@ -68,6 +60,15 @@ export default class App extends React.Component {
       dontParkHere: null,
     }
   }
+
+  /**
+   * Starts when the app launches
+   * Dosent care if its in background or foreground
+ */
+  intervalId = () => BackgroundTimer.setInterval(() => {
+    this.getUserLocationHandler();
+    console.log(this.state.userLocation);
+  }, 2000);
 
   sendNotification() {
     if (this.state.dontParkHere[0]) {
@@ -88,7 +89,8 @@ export default class App extends React.Component {
   // Foreground
   componentDidMount() {
     AppState.addEventListener('change', this.handleAppStateChange);
-    this.getUserLocationHandler();
+    this.intervalId();
+    // this.getUserLocationHandler();
   }
 
   // Background
@@ -104,12 +106,12 @@ export default class App extends React.Component {
   }
 
     /**
-   * Uses geolocation when a button is pressed
-   * TODO:
-   * Save the whole pos.coords in this.state.userLocation.
-   * Only look up pos in maps when speed is 0 ????
-   * 
-   * @returns Object coordinates of the current position
+     * Uses geolocation when a button is pressed
+     * TODO:
+     * Save the whole pos.coords in this.state.userLocation.
+     * Only look up pos in maps when speed is 0 ????
+     * 
+     * @returns Object coordinates of the current position
    */
   getUserLocationHandler = () => {
     navigator.geolocation.getCurrentPosition(pos => {
@@ -121,15 +123,9 @@ export default class App extends React.Component {
   }
 
     /**
-   * Uses Geocoder (npm install --save react-native-geocoding)
-   *      to get the adress from getUserLocationHandler()'s
-   *                        coordinates
-   * 
-   * @param float lat    Current  latitude
-   * @param float lng    Current  longitude
-   * 
-   * @returns Object    The adress of the given location
-   * 56.1598974  15.5822963 = Arklimästaregatan || lat = mindre || long = högre
+     * Geocoder (npm install --save react-native-geocoding)
+     * 
+     * @returns Object    The adress of the given location
    */
   getCurrentAddress = () => {
     Geocoder.init(keys.googlePlaces);
