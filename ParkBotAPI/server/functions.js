@@ -116,6 +116,23 @@ function cleanCurrent(register) {
     return placeHolder;
 }
 
+function cleanKeys(register) {
+    let r = cleanCurrent(register);
+    let placeHolder = [];
+
+    for (let i = 0; i < r.length; i++) {
+        let t = {};
+        let counter = 0;
+        for (let key in r[i]) {
+            t[counter] = r[i][key];
+            counter += 1;
+        }
+        counter = 0;
+        placeHolder.push(t);
+    }
+   
+    return placeHolder;
+}
 // Returning object (One per route)
 let jf = {};
 
@@ -167,22 +184,10 @@ jf.getCurrent = (res) => {
  */
 jf.getCleanedCurrent = (res) => {
 
-    let r = cleanCurrent(register);
-    let placeHolder = [];
-
-    for (let i = 0; i < r.length; i++) {
-        let t = {};
-        let counter = 0;
-        for (let key in r[i]) {
-            t[counter] = r[i][key];
-            counter += 1;
-        }
-        counter = 0;
-        placeHolder.push(t);
-    }
+    let r = cleanKeys(register);
 
     try {
-        sendJSONResponse(res, placeHolder);
+        sendJSONResponse(res, r);
     } catch (e) {
         console.log(e);
         badResonse(res);
@@ -190,14 +195,20 @@ jf.getCleanedCurrent = (res) => {
 };
 
 jf.searchStreet = (res, street) => {
-    let r = cleanCurrent(register);
+    let r = cleanKeys(register);
     let placeHolder = [];
+    let lowerCaseStreet = street.toLowerCase();
 
     for (let i = 0; i < r.length; i++) {
         const current = r[i];
 
-        if (current[0].indexOf(street) !== -1 || current[2].indexOf(street) !== -1) {
-            placeHolder.push(current);
+        if ((current[0] !== null) && (current[2] !== null)) {
+            const currentStreet = current[0].toLowerCase();
+            const currentBetween = current[2].toLowerCase();
+
+            if ((currentStreet.indexOf(lowerCaseStreet) !== -1) || (currentBetween.indexOf(lowerCaseStreet) !== -1)) {
+                placeHolder.push(current);
+            }   
         }
     }
 
