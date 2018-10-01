@@ -24,7 +24,6 @@ PushNotification.configure({
     setTimeout(() => {
       if (!notification['foreground']) {
         ToastAndroid.show("Closing app", ToastAndroid.SHORT);
-        BackgroundTimer.clearInterval(intervalId);
         BackHandler.exitApp();
       }
     }, 1);
@@ -53,6 +52,7 @@ export default class App extends React.Component {
     this.getCurrentAddress = this.getCurrentAddress.bind(this);
     this.state = {
       isLoading: true,
+      checkIntervals: true,
       userLocation: {
         longitude: 'Not loaded',
         latitude: 'Not loaded'
@@ -66,11 +66,16 @@ export default class App extends React.Component {
    * Dosent care if its in background or foreground
  */
   intervalId = () => BackgroundTimer.setInterval(() => {
-    this.getUserLocationHandler();
-    console.log(this.state.userLocation);
+    if (this.state.checkIntervals) {
+      this.getUserLocationHandler(); 
+    }
   }, 2000);
 
   sendNotification() {
+    this.setState({
+      checkIntervals: false
+    });
+
     if (this.state.dontParkHere[0]) {
       PushNotification.localNotification({
         title: 'Coordinates',

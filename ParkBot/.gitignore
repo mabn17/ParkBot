@@ -1,7 +1,7 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # keys
-/components/ApiKets.js
+/components/ApiKeys.js
 
 # expo
 .expo/
