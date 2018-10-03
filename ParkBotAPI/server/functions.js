@@ -197,7 +197,11 @@ jf.getCleanedCurrent = (res) => {
 jf.searchStreet = (res, street) => {
     let r = cleanKeys(register);
     let placeHolder = [];
-    let lowerCaseStreet = street.toLowerCase();
+    let lowerCaseStreet = decodeURIComponent(street);
+
+    lowerCaseStreet = lowerCaseStreet.toLowerCase();
+
+    console.log(lowerCaseStreet);
 
     for (let i = 0; i < r.length; i++) {
         const current = r[i];
