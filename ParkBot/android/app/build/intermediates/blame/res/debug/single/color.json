@@ -9,7 +9,7 @@
     },
     {
         "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\15.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
@@ -17,7 +17,7 @@
     },
     {
         "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\15.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
@@ -41,7 +41,7 @@
     },
     {
         "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\15.0.1\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",

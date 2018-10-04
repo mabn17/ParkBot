@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="25cdd380f0a1b2f67a0b7253bbf1f343df981e5e">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-16.0.1_4cbb7d5b394bea9687ab615f10cf1b8860e1fba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\marti\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
         jumboMode="false"
         optimize="true"
@@ -27,15 +36,6 @@
         revision="26.0.2"
         sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.1.0_aaf127927f66f2cb3d5a26be61f6bd4164230818.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="6d468b69c3baff6635f9a7d09a558ced41fdbdf4">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-15.0.1_5418396195f3f998620bbe0714cf15cb8145750f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -210,21 +210,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="32ac362d6f6a636ab4f737a90cda4a35c9402025">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-15.0.1_df518a07eb6422d9d975afc8a29bcefc1dfcf7cc.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_c2b2f6acc78377e4e8488658a01314239db81a95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\16.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9abdef6b3ea9a6d226f4ef13198d24e32f33ea4d">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-16.0.0_c4867e76c3e3f4b695687e22e38f218e98d93626.jar" />
     </item>
     <item
         is-multidex="false"
@@ -306,6 +306,15 @@
         revision="26.0.2"
         sha1="63413895dce50f6123807d1db2274a1982a34194">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-identifier-15.0.1_9f7e81fb5fef8118637b5992cb4f37c4d4120506.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="5b9f57b1fb76487516b73b908f54c60c48202d84">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-16.0.1_a29d1ecb5e6318bdc450f890d12f55cb233bb3ab.jar" />
     </item>
     <item
         is-multidex="false"
@@ -408,15 +417,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="c1e9d140d3260619ce2fa991d30b14b531d61dec">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-stats-15.0.1_0c4dc2afc7c728e75f59cefc29dfd78f19c011fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -426,21 +426,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="d8fe6d91310b54734f454dd490c3c869f6290576">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-15.0.1_a0911898b2e99db2c5e600ed084571d041979ec5.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\15.0.2\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="b91045039cbf8fabb7989999578a13659eb1749f">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-analytics-impl-15.0.2_571e2b680e3a998001c4d107e36477da349f0ccc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\16.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c5a0f010d8429fa087ba3ce882cd24af9027868a">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-16.0.0_68876d942d3bf6652076ce0521560465f5c44ee7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -486,6 +486,15 @@
         revision="26.0.2"
         sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.1.0_49dc63d7a650bc90b72fb1b0f360e23208b5ce0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9d0ff1960f148dafff5b945e8596c060ff3cf88e">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-16.0.1_c9f12e384bb07d9bfac3cbf20412f93982c2b7f3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -552,15 +561,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="8d813c05361147f6f515f749df19223cd6256314">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-15.0.1_a058e26677c4e9dd44d77c7b39429bd27295bcc8.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\15.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -588,21 +588,21 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\16.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a08c6dadfd96a281d9fddf59a767749e43064c23">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-stats-16.0.1_3986c027df6807d1d66885f7dad972d48ebeeb1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="26.0.2"
         sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.1.0_7e4286f7467a7be8d6f18f82e4cf0f8cc5410447.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\15.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="26.0.2"
-        sha1="4d4d98a0428b2e620e6b4a228ef9f7cb2f0debd2">
-        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-15.0.1_6dc6abd0aa3e50a6e66560c1bee3023c88841b00.jar" />
     </item>
 
 </items>

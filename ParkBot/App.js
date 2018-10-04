@@ -69,7 +69,7 @@ export default class App extends React.Component {
     if (this.state.checkIntervals) {
       this.getUserLocationHandler(); 
     }
-  }, 2000);
+  }, 200);
 
   sendNotification() {
     this.setState({

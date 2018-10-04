@@ -3,7 +3,13 @@
 # 2018-09-15
 # CSV to JSON converter using BASH
 # original script from https://gist.github.com/dsliberty/3de707bc656cf757a0cb
-# Usage ./csv2json.sh input.csv > output.json
+
+# Script is witten for this spesific "layout" (kor.xlsx)
+# Usage
+# First download and convert the file to csv ,
+# Then remove the "intrudoction text" and have the first set of titles on line 0
+# To run: ./converter.bash inputFileName.csv > register.json
+
 # Json will return valid - https://jsonlint.com/
 
 #set -x
