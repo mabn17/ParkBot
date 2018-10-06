@@ -46,6 +46,7 @@ export default class App extends React.Component {
     super(props);
 
     // Binding to accses "this"
+   // this.isParkingAllowed = this.isParkingAllowed.bind(this);
     this.intervalId = this.intervalId.bind(this);
     this.handleAppStateChange = this.handleAppStateChange.bind(this);
     this.sendNotification = this.sendNotification.bind(this);
@@ -69,7 +70,7 @@ export default class App extends React.Component {
     if (this.state.checkIntervals) {
       this.getUserLocationHandler(); 
     }
-  }, 200);
+  }, 3000);
 
   sendNotification() {
     this.setState({
@@ -79,13 +80,13 @@ export default class App extends React.Component {
     if (this.state.dontParkHere[0]) {
       PushNotification.localNotification({
         title: 'Coordinates',
-        message: 'Lat: ' + this.state.userLocation.latitude + ", Lng: " + this.state.userLocation.longitude,
+        message: 'NEJ: Lat: ' + this.state.userLocation.latitude + ", Lng: " + this.state.userLocation.longitude,
         date: new Date(Date.now() + (60 * 1000))
       });
     } else {
       PushNotification.localNotification({
         title: 'Coordinates',
-        message: 'NO DATA FOUND',
+        message: 'Du kan parkera här',
         date: new Date(Date.now() + (60 * 1000))
       });
     }
@@ -132,7 +133,7 @@ export default class App extends React.Component {
      * 
      * @returns Object    The adress of the given location
    */
-  getCurrentAddress = () => {
+  getCurrentAddress = async () => {
     Geocoder.init(keys.googlePlaces);
     // this.state.userLocation.latitude, this.state.userLocation.longitude
 
@@ -140,10 +141,23 @@ export default class App extends React.Component {
     let lat = parseFloat(this.state.userLocation.latitude).toFixed(4);
     let lng = parseFloat(this.state.userLocation.longitude).toFixed(4);
 
+    /* Geocoder.from(lng, lat)
+    .then(json => {
+      let addressComponent = json.results[0]["address_components"];
+      console.log(addressComponent);
+    })
+    .catch(error => console.warn(error)); */
     Geocoder.from(lng, lat)
     .then(json => {
-        let addressComponent = json.results[0];
-      console.log(addressComponent);
+      let addressComponent = json.results[0]["address_components"][1]["short_name"];
+      return addressComponent;
+    }).then((addressComponent) => {
+      if (this.getRegister(addressComponent).length) {
+        this.sendNotification();
+      } else {
+        console.log("IM HERE");
+        this.sendNotification();
+      }
     })
     .catch(error => console.warn(error));
   }
@@ -155,10 +169,11 @@ export default class App extends React.Component {
    * @returns Object    Karlskrona kommuns gatusopningsschema
    * @returns Object    changes this.state.isLoading value to false
    */
-  async getRegister() {
+  getRegister = async (currentStreet) => {
+      currentStreet = currentStreet || null;
     try {
       let response = await fetch(
-        'http://10.0.2.2:1337/get/current/cleaned'
+        'http://10.0.2.2:1337/search/' + currentStreet
       );
       let jsonResponse = await response.json();
       console.log(jsonResponse);
@@ -166,12 +181,12 @@ export default class App extends React.Component {
         dontParkHere: jsonResponse
       });
       this.setState({ isLoading: false });
+      return jsonResponse;
     } catch (err) {
       console.log(err);
       this.getRegister();
     }
   }
-
 
   render() {
     if (this.state.isLoading) {
@@ -184,7 +199,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>ParkBot Karlskrona</Text>
-        <FetchLocation onGetLocation={this.sendNotification} />
+        <FetchLocation onGetLocation={this.getCurrentAddress} />
       </View>
     );
   }
