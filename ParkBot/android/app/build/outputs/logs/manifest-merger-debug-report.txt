@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12
 	package
 		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:2:5-26
 		INJECTED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml
@@ -34,7 +34,7 @@ ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidM
 	android:name
 		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:11:5-43:19
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:10:5-42:19
 MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\15.0.2\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-core:15.0.2] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\15.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-measurement-connector-impl\15.0.0\AndroidManifest.xml:26:5-32:19
@@ -67,69 +67,69 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\cygwin64\home\mar
 MERGED from [com.android.support:support-compat:26.1.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\AndroidManifest.xml:24:5-28:19
 	android:label
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:13:7-39
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:12:7-39
 	android:allowBackup
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:15:7-34
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:14:7-34
 	android:icon
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:14:7-41
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:13:7-41
 	android:theme
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:16:7-38
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:15:7-38
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:12:7-38
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:11:7-38
 activity#com.parkbot.MainActivity
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:17:7-26:18
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:16:7-25:18
 	android:label
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:19:9-41
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:18:9-41
 	android:windowSoftInputMode
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:21:9-51
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:20:9-51
 	android:configChanges
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:20:9-79
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:19:9-79
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:18:9-37
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:17:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:22:9-25:25
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:21:9-24:25
 action#android.intent.action.MAIN
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:23:13-65
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:22:13-65
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:23:21-62
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:22:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:24:13-73
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:24:23-70
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:23:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:27:7-84
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:26:7-84
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:27:17-81
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:26:17-81
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:29:7-108
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:28:7-108
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:29:17-105
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:28:17-105
 receiver#com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:30:7-34:18
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:29:7-33:18
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:30:17-113
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:29:17-113
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:31:9-33:25
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:30:9-32:25
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:32:13-75
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:31:13-75
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:32:21-72
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:31:21-72
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationRegistrationService
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:35:7-116
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:34:7-116
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:35:16-114
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:34:16-114
 service#com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:36:7-42:17
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:35:7-41:17
 	android:exported
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:38:13-37
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:37:11-105
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:36:11-105
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:39:15-41:31
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:38:15-40:31
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:40:17-78
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:39:17-78
 	android:name
-		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:40:25-75
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:39:25-75
 uses-sdk
 INJECTED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [parkbot:react-native-background-timer:unspecified] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-background-timer\unspecified\AndroidManifest.xml:7:5-9:41
@@ -384,11 +384,11 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\cygwin64\home\marti\P
 	android:name
 		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\AndroidManifest.xml:27:13-51
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\15.0.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
