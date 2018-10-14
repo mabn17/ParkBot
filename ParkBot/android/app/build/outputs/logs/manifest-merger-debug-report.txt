@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12
 	package
 		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:2:5-26
 		INJECTED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml
@@ -34,7 +34,7 @@ ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidM
 	android:name
 		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:10:5-42:19
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:10:5-43:19
 MERGED from [com.google.firebase:firebase-messaging:15.0.2] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\15.0.2\AndroidManifest.xml:22:5-35:19
 MERGED from [com.google.firebase:firebase-core:15.0.2] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-core\15.0.2\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.firebase\firebase-measurement-connector-impl\15.0.0\AndroidManifest.xml:26:5-32:19
@@ -56,7 +56,9 @@ MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\cygwin64\home\m
 MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\16.0.0\AndroidManifest.xml:26:5-20
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\16.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\15.0.0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\15.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\16.0.1\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places-placereport\15.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\16.0.1\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\16.0.1\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\AndroidManifest.xml:25:5-29:19
@@ -130,8 +132,13 @@ action#com.google.firebase.MESSAGING_EVENT
 ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:39:17-78
 	android:name
 		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:39:25-75
+service#com.xebia.activityrecognition.DetectionService
+ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:42:7-79
+	android:name
+		ADDED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:42:16-77
 uses-sdk
 INJECTED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [parkbot:react-native-activity-recognition:unspecified] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-activity-recognition\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [parkbot:react-native-background-timer:unspecified] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-background-timer\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [parkbot:react-native-push-notification:unspecified] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-push-notification\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [me.leolin:ShortcutBadger:1.1.8] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.8\AndroidManifest.xml:7:5-9:41
@@ -162,7 +169,9 @@ MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\cygwin64\home\m
 MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\16.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-stats\16.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-maps:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\15.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\15.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\16.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places-placereport\15.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\16.0.1\AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\16.0.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\AndroidManifest.xml:21:5-23:54
@@ -180,6 +189,10 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\cygwin64\home\marti\Projec
 	android:minSdkVersion
 		INJECTED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [parkbot:react-native-activity-recognition:unspecified] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-activity-recognition\unspecified\AndroidManifest.xml:11:5-94
+	android:name
+		ADDED from [parkbot:react-native-activity-recognition:unspecified] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-activity-recognition\unspecified\AndroidManifest.xml:11:22-91
 uses-permission#com.sec.android.provider.badge.permission.READ
 ADDED from [me.leolin:ShortcutBadger:1.1.8] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.8\AndroidManifest.xml:19:5-86
 	android:name
@@ -384,11 +397,11 @@ MERGED from [com.android.support:support-compat:26.1.0] C:\cygwin64\home\marti\P
 	android:name
 		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\AndroidManifest.xml:27:13-51
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-44:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\cygwin64\home\marti\Projects\ParkBot\android\app\src\main\AndroidManifest.xml:1:1-45:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:15.0.0] C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\15.0.0\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion

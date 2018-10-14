@@ -4263,6 +4263,10 @@ react-is@^16.3.1:
   version "16.5.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.5.2.tgz#e2a7b7c3f5d48062eb769fcb123505eb928722e3"
 
+react-native-activity-recognition@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-native-activity-recognition/-/react-native-activity-recognition-3.2.0.tgz#eb680d4aa02b50958e500dd1055e746a77265827"
+
 react-native-background-timer@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/react-native-background-timer/-/react-native-background-timer-2.0.1.tgz#ef714a4bfd28fc47cbbd335631b581cf915604a2"

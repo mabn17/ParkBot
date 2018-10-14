@@ -237,6 +237,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\parkbot\react-native-activity-recognition\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d951215333d062043a4216853c4f5e90ecc74abf">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\parkbot-react-native-activity-recognition-unspecified_c2af6dc02883fe2f93af5906cb9319073280b6d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -351,6 +360,15 @@
         revision="26.0.2"
         sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_473fec7b65d2ba45aa18b2301995c01b2a343073.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places-placereport\15.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1df2a23336d956cde542040263b350c7bd11f3f7">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-places-placereport-15.0.1_599beacbf9b58e225842992660c6214efac83f5d.jar" />
     </item>
     <item
         is-multidex="false"
@@ -558,6 +576,15 @@
         revision="26.0.2"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
         <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_588cf8019f58b4fd8f7be87781b8f3e2a4e74e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\15.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="40027d86a141b990d047cdeef0b25010adc2ea1f">
+        <dex dex="C:\cygwin64\home\marti\Projects\ParkBot\android\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-15.0.0_5939f2b4779cd0b7d03d0b0538a27e0d4f919aaa.jar" />
     </item>
     <item
         is-multidex="false"

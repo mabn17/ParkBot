@@ -10,8 +10,10 @@ import {
 import Geocoder from 'react-native-geocoding'; // yarn add
 import PushNotification from'react-native-push-notification'; // yarn add
 import BackgroundTimer from 'react-native-background-timer'; // yarn add
+import ActivityRecognition from 'react-native-activity-recognition';
 import FetchLocation from './components/FetchLocations';  // Button
 import LoadingView from './components/Loading';  // Loading View
+import Global from './components/Global';
 
 import keys from './components/ApiKeys';
 
@@ -37,12 +39,23 @@ PushNotification.configure({
   senderID: keys.firebaseSenderId,
 });
 
+// ONLY LOGS WHILE IN BG?? AND ONES??
+this.unsubscribe = ActivityRecognition.subscribe(detectedActivities => {
+  console.log(detectedActivities.sorted[0]);
+  Global.myActivityVar = detectedActivities.sorted[0];
+});
+
+/* ActivityRecognition.start(1000); */
+
+/* ActivityRecognition.stop()
+this.unsubscribe(); */
 
 export default class App extends React.Component {
 
   constructor(props) {
     super(props);
 
+    this.checkActivity = this.checkActivity.bind(this);
     this.intervalId = this.intervalId.bind(this);
     this.handleAppStateChange = this.handleAppStateChange.bind(this);
     this.sendNotification = this.sendNotification.bind(this);
@@ -56,12 +69,21 @@ export default class App extends React.Component {
         latitude: 'Not loaded'
       },
       dontParkHere: null,
+      activity: {},
     }
+  }
+
+  checkActivity = () => {
+    const detectionIntervalMillis = 1000;
+    const test = ActivityRecognition.start(detectionIntervalMillis);
+    console.log('NY', Global.myActivityVar);
+    ActivityRecognition.stop();
   }
 
   intervalId = () => BackgroundTimer.setInterval(() => {
     if (this.state.checkIntervals) {
-      this.getUserLocationHandler(); 
+      this.checkActivity();
+      // this.getUserLocationHandler();
     }
   }, 3000);
 
@@ -87,6 +109,7 @@ export default class App extends React.Component {
 
   componentDidMount() {
     AppState.addEventListener('change', this.handleAppStateChange);
+    // ActivityRecognition.stop();
     this.intervalId();
   }
   componentWillMount() {

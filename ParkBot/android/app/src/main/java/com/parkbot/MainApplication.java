@@ -3,6 +3,7 @@ package com.parkbot;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.xebia.activityrecognition.RNActivityRecognitionPackage;
 import com.ocetnik.timer.BackgroundTimerPackage;
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNActivityRecognitionPackage(),
             new BackgroundTimerPackage(),
             new ReactNativePushNotificationPackage()
       );
