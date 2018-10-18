@@ -16,4 +16,6 @@ then
 else
     echo "Excel behöver uppdateras, ändrar senaste datum i last-modified.txt"
     echo "$res" > last-modified.txt
+    $(./main.py > /dev/null 2>&1)
+    echo "E-mail notifikation har skickats"
 fi
