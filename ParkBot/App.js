@@ -4,13 +4,12 @@ import {
   View, AppState,
   ToastAndroid,
   BackHandler,
-  PermissionsAndroid
 } from 'react-native';
 
 import Geocoder from 'react-native-geocoding'; // yarn add
 import PushNotification from'react-native-push-notification'; // yarn add
 import BackgroundTimer from 'react-native-background-timer'; // yarn add
-import ActivityRecognition from 'react-native-activity-recognition';
+import ActivityRecognition from 'react-native-activity-recognition'; // yarn add
 import FetchLocation from './components/FetchLocations';  // Button
 import LoadingView from './components/Loading';  // Loading View
 import Global from './components/Global';
@@ -39,7 +38,6 @@ PushNotification.configure({
   senderID: keys.firebaseSenderId,
 });
 
-// ONLY LOGS WHILE IN BG?? AND ONES??
 this.unsubscribe = ActivityRecognition.subscribe(detectedActivities => {
   console.log(detectedActivities.sorted[0]);
   Global.myActivityVar = detectedActivities.sorted[0];
@@ -69,23 +67,36 @@ export default class App extends React.Component {
         latitude: 'Not loaded'
       },
       dontParkHere: null,
+      inVehicle: false,
       activity: {},
     }
   }
 
   checkActivity = () => {
-    const detectionIntervalMillis = 1000;
-    const test = ActivityRecognition.start(detectionIntervalMillis);
-    console.log('NY', Global.myActivityVar);
-    ActivityRecognition.stop();
+    /* this.unsubscribe = ActivityRecognition.subscribe(detectedActivities => {
+      console.log(detectedActivities.sorted[0]);
+      Global.myActivityVar = detectedActivities.sorted[0];
+    }); */
+
+    ActivityRecognition.start(1000);
+
+    this.setState({ activity: Global.myActivityVar });
+    /* ActivityRecognition.stop(); */
   }
 
   intervalId = () => BackgroundTimer.setInterval(() => {
     if (this.state.checkIntervals) {
+      this.getUserLocationHandler();
       this.checkActivity();
-      // this.getUserLocationHandler();
+      if (this.state.inVehicle) {
+        if ((this.state.activity.type == "WALKING") && (this.state.activity.confidence >= 75)) {
+          this.getCurrentAddress();
+        }
+      } else if ((this.state.activity.type == "IN_VEHICLE") && (this.state.activity.confidence >= 75)) {
+          this.setState({ inVehicle: true });
+      }
     }
-  }, 3000);
+  }, 5000);
 
   sendNotification() {
     this.setState({
@@ -95,7 +106,7 @@ export default class App extends React.Component {
     if (this.state.dontParkHere[0]) {
       PushNotification.localNotification({
         title: 'Coordinates',
-        message: 'NEJ: Lat: ' + this.state.userLocation.latitude + ", Lng: " + this.state.userLocation.longitude,
+        message: 'Platsen du befinner dig på kommer att rengöras inom de närmsta 24 timmarna. Dubbelkolla gärna med gatusopningsregistret.',
         date: new Date(Date.now() + (60 * 1000))
       });
     } else {
@@ -109,7 +120,6 @@ export default class App extends React.Component {
 
   componentDidMount() {
     AppState.addEventListener('change', this.handleAppStateChange);
-    // ActivityRecognition.stop();
     this.intervalId();
   }
   componentWillMount() {
@@ -119,7 +129,6 @@ export default class App extends React.Component {
   handleAppStateChange(appppState) {
     if (appppState  === 'background') {
       console.log("App state is now in background");
-      // this.intervalId();
     }
   }
 
@@ -133,18 +142,12 @@ export default class App extends React.Component {
       });
     }, (err) => { 
       navigator.geolocation.getCurrentPosition((pos) => {
-        console.log("Trying again", pos.coords);
+        console.log('Trying Again', pos.coords);
         this.setState({ userLocation: pos.coords });
       });
       }, { enableHighAccuracy: true, timeout: 3000, maximumAge: 3000 });
   }
 
-  /* Geocoder.from(lng, lat)
-    .then(json => {
-      let addressComponent = json.results[0]["address_components"];
-      console.log(addressComponent);
-    })
-    .catch(error => console.warn(error)); */
   getCurrentAddress = async () => {
     Geocoder.init(keys.googlePlaces);
  
@@ -156,13 +159,12 @@ export default class App extends React.Component {
       let addressComponent = json.results[0]["address_components"][1]["short_name"];
       return addressComponent;
     }).then((addressComponent) => {
-      let thisISBS = this.getRegister(addressComponent);
-      return thisISBS;
-    }).then((thisISBS) => {
-      if (thisISBS.length >= 1) {
+      let registerResponce = this.getRegister(addressComponent);
+      return registerResponce;
+    }).then((registerResponce) => {
+      if (registerResponce.length >= 1) {
         this.sendNotification();
       } else {
-        console.log("IM HERE");
         this.sendNotification();
       }
     })
@@ -173,7 +175,7 @@ export default class App extends React.Component {
       currentStreet = currentStreet || null;
     try {
       let response = await fetch(
-        'http://10.0.2.2:1337/search/' + currentStreet
+        keys.herokuUrl + currentStreet
       );
       let jsonResponse = await response.json();
       console.log(jsonResponse);

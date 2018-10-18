@@ -5,7 +5,7 @@ import {
 
 const fetchLocation = props => {
   return (
-    <Button title="Get Location" onPress={props.onGetLocation} />
+    <Button title="Kolla nu" onPress={props.onGetLocation} />
   );
 };
 
