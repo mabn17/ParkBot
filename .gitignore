@@ -1,3 +1,5 @@
 /ParkBot/node_modules
 /ParkBot/components/ApiKeys.js
 /vim.exe.stackdump
+/ParkBotAPI/update/variables.py
+/ParkBotAPI/update/variables.pyc
