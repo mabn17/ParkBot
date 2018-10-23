@@ -101,6 +101,7 @@ android {
         applicationId "com.parkbot"
         minSdkVersion 26 // 16
         targetSdkVersion 26 // 22
+        multiDexEnabled = true
         versionCode 1
         versionName "1.0"
         ndk {

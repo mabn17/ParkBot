@@ -64,7 +64,8 @@ export default class App extends React.Component {
       checkIntervals: true,
       userLocation: {
         longitude: 'Not loaded',
-        latitude: 'Not loaded'
+        latitude: 'Not loaded',
+        heading: null,
       },
       dontParkHere: null,
       inVehicle: false,
@@ -73,27 +74,27 @@ export default class App extends React.Component {
   }
 
   checkActivity = () => {
-    /* this.unsubscribe = ActivityRecognition.subscribe(detectedActivities => {
-      console.log(detectedActivities.sorted[0]);
-      Global.myActivityVar = detectedActivities.sorted[0];
-    }); */
-
     ActivityRecognition.start(1000);
 
     this.setState({ activity: Global.myActivityVar });
-    /* ActivityRecognition.stop(); */
+    ActivityRecognition.stop();
   }
 
   intervalId = () => BackgroundTimer.setInterval(() => {
     if (this.state.checkIntervals) {
       this.getUserLocationHandler();
       this.checkActivity();
+      console.log('heading', this.state.userLocation.heading);
       if (this.state.inVehicle) {
-        if ((this.state.activity.type == "WALKING") && (this.state.activity.confidence >= 75)) {
+        console.log("Waiting for person to be on foot");
+        if ((this.state.activity.type == "ON_FOOT" || this.state.activity.type == "STILL" ) && (this.state.activity.confidence >= 75)) {
           this.getCurrentAddress();
         }
-      } else if ((this.state.activity.type == "IN_VEHICLE") && (this.state.activity.confidence >= 75)) {
-          this.setState({ inVehicle: true });
+      } else if ((this.state.activity.type == "IN_VEHICLE" || this.state.activity.type == "ON_BICYCLE") && (this.state.activity.confidence >= 75)) {
+        console.log("Waiting for person to be on foot");        
+        this.setState({ inVehicle: true });
+      } else {
+        console.log("Still waiting for driver");
       }
     }
   }, 5000);
@@ -132,8 +133,6 @@ export default class App extends React.Component {
     }
   }
 
-
-  // getCurrentPosition || watchPosition
   getUserLocationHandler = () => {
     navigator.geolocation.getCurrentPosition((pos) => {
       console.log(pos.coords);

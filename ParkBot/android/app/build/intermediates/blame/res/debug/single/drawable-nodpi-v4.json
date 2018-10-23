@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\cast_album_art_placeholder_large.png",
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\drawable-nodpi-v4\\cast_album_art_placeholder_large.png"
+    },
+    {
+        "merged": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi-v4\\cast_album_art_placeholder.png",
+        "source": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\drawable-nodpi-v4\\cast_album_art_placeholder.png"
+    }
+]

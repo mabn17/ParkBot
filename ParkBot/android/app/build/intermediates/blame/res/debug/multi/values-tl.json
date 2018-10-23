@@ -368,8 +368,749 @@
                     "startLine": 21,
                     "startColumn": 4,
                     "startOffset": 2117,
+                    "endColumn": 74,
+                    "endOffset": 2187
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 260,
+                        "endColumn": 70,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2192,
+                    "endColumn": 98,
+                    "endOffset": 2286
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 331,
+                        "endColumn": 94,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2291,
+                    "endColumn": 97,
+                    "endOffset": 2384
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 426,
+                        "endColumn": 93,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2389,
+                    "endColumn": 129,
+                    "endOffset": 2514
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 520,
+                        "endColumn": 125,
+                        "endOffset": 645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2519,
+                    "endColumn": 128,
+                    "endOffset": 2643
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 646,
+                        "endColumn": 128,
+                        "endOffset": 774
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2648,
+                    "endColumn": 85,
+                    "endOffset": 2729
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 775,
+                        "endColumn": 81,
+                        "endOffset": 856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2734,
+                    "endColumn": 167,
+                    "endOffset": 2897
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 857,
+                        "endColumn": 163,
+                        "endOffset": 1020
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2902,
+                    "endColumn": 131,
+                    "endOffset": 3029
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1021,
+                        "endColumn": 127,
+                        "endOffset": 1148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3034,
+                    "endColumn": 109,
+                    "endOffset": 3139
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1149,
+                        "endColumn": 105,
+                        "endOffset": 1254
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3144,
+                    "endColumn": 116,
+                    "endOffset": 3256
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1255,
+                        "endColumn": 112,
+                        "endOffset": 1367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3261,
+                    "endColumn": 102,
+                    "endOffset": 3359
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1368,
+                        "endColumn": 98,
+                        "endOffset": 1466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3364,
+                    "endColumn": 105,
+                    "endOffset": 3465
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1467,
+                        "endColumn": 101,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3470,
+                    "endColumn": 80,
+                    "endOffset": 3546
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 1569,
+                        "endColumn": 76,
+                        "endOffset": 1645
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3551,
+                    "endColumn": 104,
+                    "endOffset": 3651
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1646,
+                        "endColumn": 100,
+                        "endOffset": 1746
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3656,
+                    "endColumn": 107,
+                    "endOffset": 3759
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1747,
+                        "endColumn": 103,
+                        "endOffset": 1850
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3764,
+                    "endColumn": 107,
+                    "endOffset": 3867
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1851,
+                        "endColumn": 103,
+                        "endOffset": 1954
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 3872,
+                    "endColumn": 74,
+                    "endOffset": 3942
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1955,
+                        "endColumn": 70,
+                        "endOffset": 2025
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3947,
+                    "endColumn": 138,
+                    "endOffset": 4081
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 250,
+                        "endColumn": 138,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4086,
+                    "endColumn": 139,
+                    "endOffset": 4221
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 389,
+                        "endColumn": 139,
+                        "endOffset": 528
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4226,
+                    "endColumn": 101,
+                    "endOffset": 4323
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 529,
+                        "endColumn": 97,
+                        "endOffset": 626
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 4328,
+                    "endColumn": 98,
+                    "endOffset": 4422
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 627,
+                        "endColumn": 94,
+                        "endOffset": 721
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 4427,
+                    "endColumn": 76,
+                    "endOffset": 4499
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 2026,
+                        "endColumn": 72,
+                        "endOffset": 2098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 4504,
+                    "endColumn": 74,
+                    "endOffset": 4574
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 2099,
+                        "endColumn": 70,
+                        "endOffset": 2169
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 4579,
+                    "endColumn": 78,
+                    "endOffset": 4653
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 2170,
+                        "endColumn": 74,
+                        "endOffset": 2244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 4658,
+                    "endColumn": 102,
+                    "endOffset": 4756
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 2245,
+                        "endColumn": 98,
+                        "endOffset": 2343
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 4761,
+                    "endColumn": 105,
+                    "endOffset": 4862
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 2344,
+                        "endColumn": 101,
+                        "endOffset": 2445
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 4867,
+                    "endColumn": 109,
+                    "endOffset": 4972
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 2446,
+                        "endColumn": 105,
+                        "endOffset": 2551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4977,
+                    "endColumn": 100,
+                    "endOffset": 5073
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 2552,
+                        "endColumn": 96,
+                        "endOffset": 2648
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 5078,
+                    "endColumn": 99,
+                    "endOffset": 5173
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 2649,
+                        "endColumn": 95,
+                        "endOffset": 2744
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 5178,
+                    "endColumn": 74,
+                    "endOffset": 5248
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 2745,
+                        "endColumn": 70,
+                        "endOffset": 2815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 5253,
+                    "endColumn": 102,
+                    "endOffset": 5351
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 2816,
+                        "endColumn": 98,
+                        "endOffset": 2914
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 5356,
+                    "endColumn": 96,
+                    "endOffset": 5448
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 2915,
+                        "endColumn": 92,
+                        "endOffset": 3007
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 5453,
+                    "endColumn": 102,
+                    "endOffset": 5551
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 3008,
+                        "endColumn": 98,
+                        "endOffset": 3106
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 5556,
+                    "endColumn": 123,
+                    "endOffset": 5675
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 3107,
+                        "endColumn": 119,
+                        "endOffset": 3226
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 5680,
+                    "endColumn": 143,
+                    "endOffset": 5819
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 3227,
+                        "endColumn": 143,
+                        "endOffset": 3370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 5824,
+                    "endColumn": 94,
+                    "endOffset": 5914
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 3371,
+                        "endColumn": 90,
+                        "endOffset": 3461
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 5919,
+                    "endColumn": 90,
+                    "endOffset": 6005
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 3462,
+                        "endColumn": 86,
+                        "endOffset": 3548
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 6010,
+                    "endColumn": 107,
+                    "endOffset": 6113
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 3549,
+                        "endColumn": 103,
+                        "endOffset": 3652
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 6118,
+                    "endColumn": 78,
+                    "endOffset": 6192
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-cast-framework\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 3653,
+                        "endColumn": 74,
+                        "endOffset": 3727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 6197,
                     "endColumn": 108,
-                    "endOffset": 2221
+                    "endOffset": 6301
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -384,11 +1125,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 2226,
+                    "startOffset": 6306,
                     "endColumn": 207,
-                    "endOffset": 2429
+                    "endOffset": 6509
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -403,11 +1144,11 @@
             },
             {
                 "to": {
-                    "startLine": 23,
+                    "startLine": 62,
                     "startColumn": 4,
-                    "startOffset": 2434,
+                    "startOffset": 6514,
                     "endColumn": 139,
-                    "endOffset": 2569
+                    "endOffset": 6649
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -422,11 +1163,11 @@
             },
             {
                 "to": {
-                    "startLine": 24,
+                    "startLine": 63,
                     "startColumn": 4,
-                    "startOffset": 2574,
+                    "startOffset": 6654,
                     "endColumn": 110,
-                    "endOffset": 2680
+                    "endOffset": 6760
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -441,11 +1182,11 @@
             },
             {
                 "to": {
-                    "startLine": 25,
+                    "startLine": 64,
                     "startColumn": 4,
-                    "startOffset": 2685,
+                    "startOffset": 6765,
                     "endColumn": 216,
-                    "endOffset": 2897
+                    "endOffset": 6977
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -460,11 +1201,11 @@
             },
             {
                 "to": {
-                    "startLine": 26,
+                    "startLine": 65,
                     "startColumn": 4,
-                    "startOffset": 2902,
+                    "startOffset": 6982,
                     "endColumn": 137,
-                    "endOffset": 3035
+                    "endOffset": 7115
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -479,11 +1220,11 @@
             },
             {
                 "to": {
-                    "startLine": 27,
+                    "startLine": 66,
                     "startColumn": 4,
-                    "startOffset": 3040,
+                    "startOffset": 7120,
                     "endColumn": 151,
-                    "endOffset": 3187
+                    "endOffset": 7267
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -498,11 +1239,11 @@
             },
             {
                 "to": {
-                    "startLine": 28,
+                    "startLine": 67,
                     "startColumn": 4,
-                    "startOffset": 3192,
+                    "startOffset": 7272,
                     "endColumn": 141,
-                    "endOffset": 3329
+                    "endOffset": 7409
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -517,11 +1258,11 @@
             },
             {
                 "to": {
-                    "startLine": 29,
+                    "startLine": 68,
                     "startColumn": 4,
-                    "startOffset": 3334,
+                    "startOffset": 7414,
                     "endColumn": 204,
-                    "endOffset": 3534
+                    "endOffset": 7614
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\16.0.1\\res\\values-tl\\values.xml",
@@ -536,11 +1277,11 @@
             },
             {
                 "to": {
-                    "startLine": 30,
+                    "startLine": 69,
                     "startColumn": 4,
-                    "startOffset": 3539,
+                    "startOffset": 7619,
                     "endColumn": 237,
-                    "endOffset": 3772
+                    "endOffset": 7852
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -555,11 +1296,11 @@
             },
             {
                 "to": {
-                    "startLine": 31,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 3777,
+                    "startOffset": 7857,
                     "endColumn": 108,
-                    "endOffset": 3881
+                    "endOffset": 7961
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -574,11 +1315,11 @@
             },
             {
                 "to": {
-                    "startLine": 32,
+                    "startLine": 71,
                     "startColumn": 4,
-                    "startOffset": 3886,
+                    "startOffset": 7966,
                     "endColumn": 208,
-                    "endOffset": 4090
+                    "endOffset": 8170
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -593,11 +1334,11 @@
             },
             {
                 "to": {
-                    "startLine": 33,
+                    "startLine": 72,
                     "startColumn": 4,
-                    "startOffset": 4095,
+                    "startOffset": 8175,
                     "endColumn": 139,
-                    "endOffset": 4230
+                    "endOffset": 8310
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -612,11 +1353,11 @@
             },
             {
                 "to": {
-                    "startLine": 34,
+                    "startLine": 73,
                     "startColumn": 4,
-                    "startOffset": 4235,
+                    "startOffset": 8315,
                     "endColumn": 220,
-                    "endOffset": 4451
+                    "endOffset": 8531
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -631,11 +1372,11 @@
             },
             {
                 "to": {
-                    "startLine": 35,
+                    "startLine": 74,
                     "startColumn": 4,
-                    "startOffset": 4456,
+                    "startOffset": 8536,
                     "endColumn": 208,
-                    "endOffset": 4660
+                    "endOffset": 8740
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -650,11 +1391,11 @@
             },
             {
                 "to": {
-                    "startLine": 36,
+                    "startLine": 75,
                     "startColumn": 4,
-                    "startOffset": 4665,
+                    "startOffset": 8745,
                     "endColumn": 97,
-                    "endOffset": 4758
+                    "endOffset": 8838
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -669,11 +1410,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 76,
                     "startColumn": 4,
-                    "startOffset": 4763,
+                    "startOffset": 8843,
                     "endColumn": 95,
-                    "endOffset": 4854
+                    "endOffset": 8934
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -688,11 +1429,11 @@
             },
             {
                 "to": {
-                    "startLine": 38,
+                    "startLine": 77,
                     "startColumn": 4,
-                    "startOffset": 4859,
+                    "startOffset": 8939,
                     "endColumn": 109,
-                    "endOffset": 4964
+                    "endOffset": 9044
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\16.0.1\\res\\values-tl\\values.xml",
@@ -707,11 +1448,11 @@
             },
             {
                 "to": {
-                    "startLine": 39,
+                    "startLine": 78,
                     "startColumn": 4,
-                    "startOffset": 4969,
+                    "startOffset": 9049,
                     "endColumn": 104,
-                    "endOffset": 5069
+                    "endOffset": 9149
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.firebase\\firebase-messaging\\15.0.2\\res\\values-tl\\values.xml",
@@ -726,11 +1467,11 @@
             },
             {
                 "to": {
-                    "startLine": 40,
+                    "startLine": 79,
                     "startColumn": 4,
-                    "startOffset": 5074,
+                    "startOffset": 9154,
                     "endColumn": 101,
-                    "endOffset": 5171
+                    "endOffset": 9251
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-gcm\\16.0.0\\res\\values-tl\\values.xml",
@@ -745,11 +1486,581 @@
             },
             {
                 "to": {
-                    "startLine": 41,
+                    "startLine": 80,
                     "startColumn": 4,
-                    "startOffset": 5176,
+                    "startOffset": 9256,
+                    "endColumn": 104,
+                    "endOffset": 9356
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 104,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 81,
+                    "startColumn": 4,
+                    "startOffset": 9361,
+                    "endColumn": 112,
+                    "endOffset": 9469
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 112,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 82,
+                    "startColumn": 4,
+                    "startOffset": 9474,
+                    "endColumn": 113,
+                    "endOffset": 9583
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 273,
+                        "endColumn": 113,
+                        "endOffset": 382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 83,
+                    "startColumn": 4,
+                    "startOffset": 9588,
+                    "endColumn": 115,
+                    "endOffset": 9699
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 387,
+                        "endColumn": 115,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 84,
+                    "startColumn": 4,
+                    "startOffset": 9704,
+                    "endColumn": 103,
+                    "endOffset": 9803
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 103,
+                        "endOffset": 602
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 85,
+                    "startColumn": 4,
+                    "startOffset": 9808,
                     "endColumn": 83,
-                    "endOffset": 5255
+                    "endOffset": 9887
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 607,
+                        "endColumn": 83,
+                        "endOffset": 686
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 9892,
+                    "endColumn": 91,
+                    "endOffset": 9979
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 691,
+                        "endColumn": 91,
+                        "endOffset": 778
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 87,
+                    "startColumn": 4,
+                    "startOffset": 9984,
+                    "endColumn": 107,
+                    "endOffset": 10087
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 783,
+                        "endColumn": 107,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 88,
+                    "startColumn": 4,
+                    "startOffset": 10092,
+                    "endColumn": 95,
+                    "endOffset": 10183
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 95,
+                        "endOffset": 982
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 89,
+                    "startColumn": 4,
+                    "startOffset": 10188,
+                    "endColumn": 97,
+                    "endOffset": 10281
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 987,
+                        "endColumn": 97,
+                        "endOffset": 1080
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 10286,
+                    "endColumn": 94,
+                    "endOffset": 10376
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1085,
+                        "endColumn": 94,
+                        "endOffset": 1175
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 10381,
+                    "endColumn": 94,
+                    "endOffset": 10471
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1180,
+                        "endColumn": 94,
+                        "endOffset": 1270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 10476,
+                    "endColumn": 121,
+                    "endOffset": 10593
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1275,
+                        "endColumn": 121,
+                        "endOffset": 1392
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 10598,
+                    "endColumn": 111,
+                    "endOffset": 10705
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1397,
+                        "endColumn": 111,
+                        "endOffset": 1504
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 10710,
+                    "endColumn": 85,
+                    "endOffset": 10791
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1509,
+                        "endColumn": 85,
+                        "endOffset": 1590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 10796,
+                    "endColumn": 82,
+                    "endOffset": 10874
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endColumn": 82,
+                        "endOffset": 1673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 10879,
+                    "endColumn": 82,
+                    "endOffset": 10957
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1678,
+                        "endColumn": 82,
+                        "endOffset": 1756
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 10962,
+                    "endColumn": 104,
+                    "endOffset": 11062
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1761,
+                        "endColumn": 104,
+                        "endOffset": 1861
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 11067,
+                    "endColumn": 102,
+                    "endOffset": 11165
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1866,
+                        "endColumn": 102,
+                        "endOffset": 1964
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 11170,
+                    "endColumn": 85,
+                    "endOffset": 11251
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1969,
+                        "endColumn": 85,
+                        "endOffset": 2050
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 11256,
+                    "endColumn": 96,
+                    "endOffset": 11348
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2055,
+                        "endColumn": 96,
+                        "endOffset": 2147
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 11353,
+                    "endColumn": 112,
+                    "endOffset": 11461
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 195,
+                        "endColumn": 108,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 11466,
+                    "endColumn": 97,
+                    "endOffset": 11559
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-places\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 304,
+                        "endColumn": 93,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 11564,
+                    "endColumn": 78,
+                    "endOffset": 11638
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 199,
+                        "endColumn": 74,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 11643,
+                    "endColumn": 125,
+                    "endOffset": 11764
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 274,
+                        "endColumn": 121,
+                        "endOffset": 395
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 11769,
+                    "endColumn": 70,
+                    "endOffset": 11835
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 396,
+                        "endColumn": 66,
+                        "endOffset": 462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 11840,
+                    "endColumn": 70,
+                    "endOffset": 11906
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 463,
+                        "endColumn": 66,
+                        "endOffset": 529
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 11911,
+                    "endColumn": 90,
+                    "endOffset": 11997
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 530,
+                        "endColumn": 86,
+                        "endOffset": 616
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 12002,
+                    "endColumn": 114,
+                    "endOffset": 12112
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 617,
+                        "endColumn": 110,
+                        "endOffset": 727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 12117,
+                    "endColumn": 75,
+                    "endOffset": 12188
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-ads\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 728,
+                        "endColumn": 71,
+                        "endOffset": 799
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 12193,
+                    "endColumn": 83,
+                    "endOffset": 12272
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
@@ -764,11 +2075,11 @@
             },
             {
                 "to": {
-                    "startLine": 42,
+                    "startLine": 111,
                     "startColumn": 4,
-                    "startOffset": 5260,
+                    "startOffset": 12277,
                     "endColumn": 100,
-                    "endOffset": 5356
+                    "endOffset": 12373
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.1.0\\res\\values-tl\\values-tl.xml",
@@ -778,6 +2089,25 @@
                         "startOffset": 2151,
                         "endColumn": 100,
                         "endOffset": 2247
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 12378,
+                    "endColumn": 111,
+                    "endOffset": 12485
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-wallet\\12.0.1\\res\\values-tl\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 202,
+                        "endColumn": 107,
+                        "endOffset": 309
                     }
                 }
             }

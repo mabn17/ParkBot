@@ -2178,9 +2178,30 @@
                     "startLine": 295,
                     "startColumn": 4,
                     "startOffset": 21613,
-                    "endLine": 297,
+                    "endLine": 296,
+                    "endColumn": 8,
+                    "endOffset": 21738
+                },
+                "from": {
+                    "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-appinvite\\12.0.1\\res\\values-v21\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 172,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 297,
+                    "startColumn": 4,
+                    "startOffset": 21743,
+                    "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 21780
+                    "endOffset": 21910
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values-v21\\values-v21.xml",
@@ -2196,12 +2217,12 @@
             },
             {
                 "to": {
-                    "startLine": 298,
+                    "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 21785,
-                    "endLine": 302,
+                    "startOffset": 21915,
+                    "endLine": 304,
                     "endColumn": 12,
-                    "endOffset": 22118
+                    "endOffset": 22248
                 },
                 "from": {
                     "file": "C:\\cygwin64\\home\\marti\\Projects\\ParkBot\\android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\values-v21\\values-v21.xml",
