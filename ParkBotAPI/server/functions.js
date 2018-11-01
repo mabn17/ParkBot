@@ -110,7 +110,7 @@ function cleanCurrent(register) {
                 placeHolder.push(r[i]);
             }
             break;
-        }   
+        }
     }
 
     return placeHolder;

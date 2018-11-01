@@ -69,6 +69,7 @@ export default class App extends React.Component {
       },
       dontParkHere: null,
       inVehicle: false,
+      street: null,
       activity: {},
     }
   }
@@ -84,13 +85,12 @@ export default class App extends React.Component {
     if (this.state.checkIntervals) {
       this.getUserLocationHandler();
       this.checkActivity();
-      console.log('heading', this.state.userLocation.heading);
       if (this.state.inVehicle) {
         console.log("Waiting for person to be on foot");
-        if ((this.state.activity.type == "ON_FOOT" || this.state.activity.type == "STILL" ) && (this.state.activity.confidence >= 75)) {
+        if ((this.state.activity.type == "WALKING" || this.state.activity.type == "STILL" ) && (this.state.activity.confidence >= 75)) {
           this.getCurrentAddress();
         }
-      } else if ((this.state.activity.type == "IN_VEHICLE" || this.state.activity.type == "ON_BICYCLE") && (this.state.activity.confidence >= 75)) {
+      } else if ((this.state.activity.type == "IN_VEHICLE" || this.state.activity.type == "ON_BICYCLE") && (this.state.activity.confidence >= 50)) {
         console.log("Waiting for person to be on foot");        
         this.setState({ inVehicle: true });
       } else {
@@ -134,6 +134,7 @@ export default class App extends React.Component {
   }
 
   getUserLocationHandler = () => {
+    this.checkActivity();
     navigator.geolocation.getCurrentPosition((pos) => {
       console.log(pos.coords);
       this.setState({
@@ -150,12 +151,14 @@ export default class App extends React.Component {
   getCurrentAddress = async () => {
     Geocoder.init(keys.googlePlaces);
  
-    let lat = parseFloat(this.state.userLocation.latitude).toFixed(4);
-    let lng = parseFloat(this.state.userLocation.longitude).toFixed(4);
+    let lat = parseFloat(this.state.userLocation.latitude);
+    let lng = parseFloat(this.state.userLocation.longitude);
 
-    Geocoder.from(lng, lat)
+    //switch place
+    Geocoder.from(lat, lng)
     .then(json => {
       let addressComponent = json.results[0]["address_components"][1]["short_name"];
+      this.setState({ street: addressComponent });
       return addressComponent;
     }).then((addressComponent) => {
       let registerResponce = this.getRegister(addressComponent);
@@ -200,6 +203,10 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.title}>ParkBot Karlskrona</Text>
+        <Text>{this.state.activity.type} {this.state.activity.confidence}</Text>
+        <Text>{this.state.userLocation.latitude} {this.state.userLocation.longitude}</Text>
+        <Text>{this.state.street}</Text>
+        <Text>  </Text>
         <FetchLocation onGetLocation={this.getCurrentAddress} />
       </View>
     );
