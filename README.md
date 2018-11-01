@@ -19,9 +19,12 @@ Requirements:
 
 > Data
 > > Shall use the city's street cleaning schedule, can be found [here](https://www.karlskrona.se/psidata).
+
 > > Will in any way handle changes in the schedule.
 
 > Other
 > > When the user park the car, the app will automatically make a lookup in the cleaning schedule for the street, and present a descriptive warning to the user if a street opening will occur within 24 hours of parking time.
+
 > > The app should not require to be in focus to work, it should be able to run in the background.
+
 > > (Optional Challenge) Consider which side of the road the user parked on.
